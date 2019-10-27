@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #868686;
+	background-image: -moz-linear-gradient(60deg, #868686 25%, #06c897 75%);
+	background-image: -webkit-linear-gradient(60deg, #868686 25%, #06c897 75%);
+	background-image: -ms-linear-gradient(60deg, #868686 25%, #06c897 75%);
+    background-color: linear-gradient(60deg, #868686 25%, #06c897 75%);
+    color: white;
+}
+
+#container {
+    max-width: 1000px;
+    height: 200vh;
+    margin: 10vh 10vw;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    background-color: tomato;
+}
+
+#nav {
+    background-color: turquoise;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+
+}
+
+#content {
+    background-color: yellowgreen;
+}
+
+#footer {
+    background-color: tomato;
+}
+
