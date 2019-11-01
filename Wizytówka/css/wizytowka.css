@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+	background-image: -webkit-linear-gradient(65deg, #8f8f8f 15%, #06c897 65%, #66ffcc 85%);
+	background-image: -ms-linear-gradient(65deg, #8f8f8f 15%, #06c897 65%, #66ffcc 85%);
+    background-color: linear-gradient(65deg, #8f8f8f 15%, #06c897 65%, #66ffcc 85%);
+    color: #616161;
+    line-height: 1.6;
+    font-size: 17pt;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+#container {
+    width: 60em;
+    max-width: calc(100% - 5rem);
+    margin: 0 auto;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+/* Header start */
+header {
+    font-family: Merriweather, Georgia, serif;
+    padding: 8em 0 5em 3em;
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 1em;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* Animation start */
+    .mini-box {
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 0.7em;
+
+        background-color: #f8f8f8;
+        width: 3em;
+        height: 3em;
+        border-radius: 8px;
+        position: absolute;
+    }
+
+    .mini-box:nth-of-type(1) {
+        -webkit-animation-name: miniboxation1;
+                animation-name: miniboxation1;
+        -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+        -webkit-animation-delay: 1s;
+                animation-delay: 1s;
+    }
+
+    @-webkit-keyframes miniboxation1 {
+        0%   {left: 60%; top: -3em;}
+        100% {left: 60%; top: 12em;}
+    }
+
+    @keyframes miniboxation1 {
+        0%   {left: 60%; top: -3em;}
+        100% {left: 60%; top: 12em;}
+    }
+
+    .mini-box:nth-of-type(2) {
+        -webkit-animation-name: miniboxation2;
+                animation-name: miniboxation2;
+        -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+        -webkit-animation-delay: 1.5s;
+                animation-delay: 1.5s;
+    }
+
+    @-webkit-keyframes miniboxation2 {
+        0%   {left: calc(60% + 3.9em); top: -3em;}
+        100% {left: calc(60% + 3.9em); top: 12em;}
+    }
+
+    @keyframes miniboxation2 {
+        0%   {left: calc(60% + 3.9em); top: -3em;}
+        100% {left: calc(60% + 3.9em); top: 12em;}
+    }
+
+    .mini-box:nth-of-type(3) {
+        -webkit-animation-name: miniboxation3;
+                animation-name: miniboxation3;
+        -webkit-animation-duration: 1s;
+                animation-duration: 1s;
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+        -webkit-animation-delay: 2s;
+                animation-delay: 2s;
+    }
+
+    @-webkit-keyframes miniboxation3 {
+        0%   {left: calc(60% + 8.65em); top: -3em;}
+        100% {left: calc(60% + 8.65em); top: 12em;}
+    }
+
+    @keyframes miniboxation3 {
+        0%   {left: calc(60% + 8.65em); top: -3em;}
+        100% {left: calc(60% + 8.65em); top: 12em;}
+    }
+
+    .mini-box:nth-of-type(4) {
+        -webkit-animation-name: miniboxation4;
+                animation-name: miniboxation4;
+        -webkit-animation-duration: 0.75s;
+                animation-duration: 0.75s;
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+        -webkit-animation-delay: 2.5s;
+                animation-delay: 2.5s;
+    }
+
+    @-webkit-keyframes miniboxation4 {
+        0%   {left: calc(60% + 1.9em); top: -3em;}
+        100% {left: calc(60% + 1.9em); top: 9em;}
+    }
+
+    @keyframes miniboxation4 {
+        0%   {left: calc(60% + 1.9em); top: -3em;}
+        100% {left: calc(60% + 1.9em); top: 9em;}
+    }
+
+    .mini-box:nth-of-type(5) {
+        -webkit-animation-name: miniboxation5;
+                animation-name: miniboxation5;
+        -webkit-animation-duration: 0.75s;
+                animation-duration: 0.75s;
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+        -webkit-animation-delay: 3s;
+                animation-delay: 3s;
+    }
+
+    @-webkit-keyframes miniboxation5 {
+        0%   {left: calc(60% + 6em); top: -3em; -webkit-transform: rotate(0); transform: rotate(0);}
+        90% {left: calc(60% + 6em); top: 9em; -webkit-transform: rotate(0); transform: rotate(0);}
+        100% {left: calc(60% + 6.25em); top: 9.45em; -webkit-transform: rotate(30deg); transform: rotate(30deg);}
+    }
+
+    @keyframes miniboxation5 {
+        0%   {left: calc(60% + 6em); top: -3em; -webkit-transform: rotate(0); transform: rotate(0);}
+        90% {left: calc(60% + 6em); top: 9em; -webkit-transform: rotate(0); transform: rotate(0);}
+        100% {left: calc(60% + 6.25em); top: 9.45em; -webkit-transform: rotate(30deg); transform: rotate(30deg);}
+    }
+
+    .mini-box:nth-of-type(6) {
+        -webkit-animation-name: miniboxation6;
+                animation-name: miniboxation6;
+        -webkit-animation-duration: 0.5s;
+                animation-duration: 0.5s;
+        -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+        -webkit-animation-delay: 4.2s;
+                animation-delay: 4.2s;
+    }
+
+    @-webkit-keyframes miniboxation6 {
+        0%   {left: calc(60% + 4.4em); top: -3em;}
+        100% {left: calc(60% + 4.4em); top: 6.1em;}
+    }
+
+    @keyframes miniboxation6 {
+        0%   {left: calc(60% + 4.4em); top: -3em;}
+        100% {left: calc(60% + 4.4em); top: 6.1em;}
+    }
+/* Animation&Header end */
+
+/* Menu start */
+#nav {
+    background-color: #ececec;
+    height: 3.5em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    font-family: Merriweather, Georgia, serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 8px 8px 0 0;
+    opacity: 0.98;
+    z-index: 1;
+}
+
+.menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    line-height: 2.2em;
+    padding: 0 1.6em;
+    border-radius: 8px;
+    -webkit-transition: background-color 0.08s ease-in-out;
+    -o-transition: background-color 0.08s ease-in-out;
+    transition: background-color 0.08s ease-in-out;
+}
+
+.menu a:hover {
+    background-color: #f6f6f6;
+}
+
+.menu a, .menu a:link {
+    color: #4d4d4d;
+}
+/* Menu end */
+
+/* Whole content start*/
+#content {
+    background-color: #f8f8f8;
+    border-radius: 0 0 8px 8px;
+}
+
+section {
+    padding: 5em 5em;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #616161;
+    opacity: 0.2;
+}
+/* Whole content end */
+
+/* About start */
+#about p {
+    text-align: justify;
+}
+/* About end */
+
+/* Portfolio start */
+.photo {
+    display: inline-block;
+    width: 31%;
+    margin: 10px;
+}
+
+.photo img {
+    width: 100%;
+}
+/* Portfolio end */
+
+/* Contact start */
+.contact {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+
+.contact form * {
+    font-size: 0.8em;
+    font-family: inherit;
+}
+
+input[type="text"] {
+    margin-right: 0.75em;
+}
+
+input[type="email"] {
+    margin-left: 0.75em;
+}
+
+input[type*="e"] {
+    margin-bottom: 1.5em;
+}
+
+.input-txt {
+    font-weight: 500;
+    padding-left: 1.5em;
+}
+
+textarea.input-txt {
+    padding-top: 1em;
+}
+
+.input-box input {
+    width: calc(50% - 0.75em);
+    height: 4em;
+
+    float: left;
+}
+
+.input-box textarea {
+    overflow: auto;
+    resize: none;
+    width: 100%;
+    height: 14em;
+
+    clear: both;
+}
+
+.subbut {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 1em 1.5em;
+}
+/* Contact end */
+
+/* Footer start */
+.icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 1em 0 2em 0;
+}
+
+.icon {
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    transition: -webkit-transform 0.1s ease-in-out;
+    -o-transition: transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+    transition: transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+}
+
+.icon:hover {
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);
+}
+
+.icon a {
+    color: #ddd;
+    font-size: 1.2em;
+}
+
+#footer {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 5em 0;
+    color: #ddd;
+}
+
+#footer h3 {
+    text-align: center;
+    font-weight: 400;
+}
+/* Footer end */
