@@ -1,0 +1,35 @@
+body {
+  background-color: #ececec;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+#container {
+  width: 80%;
+  height: 90%;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  background-color: #f8f8f8;
+  border-radius: 8px 8px 8px 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 80%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+img:hover {
+  opacity: 0.9;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #616161;
+  opacity: 0.2;
+}
